@@ -4,7 +4,7 @@ import IgIcon from '../assets/icons/igIcon.svg';
 
 export default function Footer() {
     return (
-        <footer className="w-full h-20 bg-black flex items-center justify-between">
+        <footer className="w-full h-16 bg-black flex items-center justify-between">
             <div className="ml-10 flex items-center">
                 <img src={phoneIcon} alt="phone icon" className="w-10 h-10 mr-4" />
                 <p className="text-white text-xl">+48 692 585 510</p>

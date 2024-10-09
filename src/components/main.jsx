@@ -1,10 +1,10 @@
-import photo1 from "../assets/photos/pierogi.jpg";
-import photo2 from '../assets/photos/meanu.jpg'
+import photo1 from "../assets/photos/parnik-4.jpg";
+
 
 export default function Main() {
     return (
         <main className="my-56 h-screen bg-white text-black">
-            <section className="w-full my-20">
+            <section className="w-full h-auto my-20">
                 <h2 className="absolute left-1/3 z-10 text-center">PIEROŻKI</h2>
                 <div className="w-full flex items-center justify-around relative z-20">
                     <img src={photo1} className="w-1/3 h-auto rounded-lg shadow-lg" />
